@@ -1,0 +1,50 @@
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .btn-dashed{
+      padding:10px 10px 10px 10px;
+      background-color:black;
+      color:white;
+      content: \002B;
+      
+  }
+  .btn-dashed1{
+    padding:10px 10px 10px 10px;
+    background-color:black;
+    color:white;
+    content: \2212;
+  }
+
+  .row{
+      background-color:rgb(164, 224, 208);
+      margin-left:400px;
+      margin-right:400px;
+      border-radius: 30px;
+  }
+
+  .btn-dashed:hover{
+      border-radius:10px;
+  }
+  .btn-dashed1:hover{
+    border-radius:10px;
+}
+
+
+    button{
+        padding:10px 10px 10px 10px;
+    background-color:rgb(235, 168, 98);
+    color:white; 
+    }
+
+    button:hover{
+        border-radius:10px;
+    
+    }
